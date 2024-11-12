@@ -19,5 +19,8 @@
         "haveAccount": "Already have an account?"
     }
     ,
+    "floatingButton": {
+        "appointment": "Take your appointment"
+    },
     "app":"Take your appointment"
 }

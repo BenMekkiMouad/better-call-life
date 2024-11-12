@@ -17,8 +17,11 @@
         "email": "Courriel",
         "password": "Mot de passe",
         "haveAccount": "Vous avez déjà un compte?"
-    }
-,
+    },
+
+    "floatingButton": {
+        "appointment": "Prenez votre rendez-vous"
+    },
     "app":"Prenez votre rendez-vous"
 
 }

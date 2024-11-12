@@ -24,5 +24,8 @@
         "doctor": "طبيب",
         "admin": "مدير"
     },
+    "floatingButton": {
+        "appointment": "احجز موعداً"
+    },
     "app": "احجز موعداً"
 }
