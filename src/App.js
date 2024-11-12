@@ -20,13 +20,17 @@ function App() {
   
     return <Element {...rest} />;
   };
+
   return (
 
       <>
       
-      <Navbar /><Routes>
-      <Route element={<Appointment />} exact path='/appointement' />
+      <Navbar />
+      
+      <Routes>
       <Route element={<ProtectedRoute element={Admin} />} exact path='/admin' />
+
+      <Route element={<Appointment />} exact path='/appointement' />
       <Route element={<Home />} exact path='/' />
       <Route element={<Login />} exact path='/login' />
       <Route element={<Register />} exact path='/register' />
