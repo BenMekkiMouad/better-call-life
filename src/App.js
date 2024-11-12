@@ -30,7 +30,7 @@ function App() {
       <Routes>
       <Route element={<ProtectedRoute element={Admin} />} exact path='/admin' />
 
-      <Route element={<Appointment />} exact path='/appointement' />
+      <Route element={<Appointment />} exact path='/reservation' />
       <Route element={<Home />} exact path='/' />
       <Route element={<Login />} exact path='/login' />
       <Route element={<Register />} exact path='/register' />

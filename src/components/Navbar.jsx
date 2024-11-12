@@ -51,7 +51,7 @@ const Navbar = () => {
                 <span class="absolute left-0 right-0 bottom-0 h-1 bg-gray-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
             </NavLink>
      
-            <NavLink to="/appointement"
+            <NavLink to="/reservation"
               className={({ isActive }) => {
               return isActive ? "relative inline-block text-gray-800 hover:text-gray-600 group p-1 bg-gray-300" : "relative inline-block text-gray-800 hover:text-gray-600 group p-1";
               }}
@@ -164,7 +164,7 @@ const Navbar = () => {
                 <span class="absolute left-0 right-0 bottom-0 h-1 bg-gray-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
             </NavLink>
      
-            <NavLink to="/appointement"
+            <NavLink to="/reservation"
               className={({ isActive }) => {
               return isActive ? "block text-gray-800 hover:text-gray-600 group p-1 bg-gray-300" : "block text-gray-800 hover:text-gray-600 group p-1";
               }}
